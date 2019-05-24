@@ -6,7 +6,7 @@ namespace NSolc.libsolidity.codegen
     {
         public static String tupleEncoder(bool _encodeAsLibraryTypes)
         {
-            string functionName = "abi_encode_tuple_";
+/*            string functionName = "abi_encode_tuple_";
 
             for (auto const& t: _givenTypes)
                 functionName += t->identifier() + "_";
@@ -18,7 +18,7 @@ namespace NSolc.libsolidity.codegen
             if (_encodeAsLibraryTypes)
                 functionName += "_library";
 
-            return createFunction(functionName);
+            return createFunction(functionNa*/me);
         }
 
         public static String tupleDecoder()
